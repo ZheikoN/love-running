@@ -15,7 +15,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,10 +31,11 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -41,7 +43,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-  
+
 
 }
 
@@ -68,7 +70,8 @@ h1, h2 {
 
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -84,10 +87,11 @@ h1, h2 {
 /* creates the legel of zoom for hero image*/
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
